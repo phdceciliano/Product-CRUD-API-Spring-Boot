@@ -29,7 +29,7 @@ spring.datasource.username=seu_usuario
 spring.datasource.password=sua_senha
 spring.jpa.hibernate.ddl-auto=validate
 spring.flyway.enabled=true
-spring.flyway.locations=classpath:db/migration
+spring.flyway.locations=classpath:db/migration´´´
 
 
 Resumo do fluxo
