@@ -15,6 +15,16 @@ Projeto de API REST para gerenciamento de produtos, desenvolvido com Spring Boot
 
 ---
 
+## Resumo do fluxo
+Criar projeto e configurar dependências.
+Definir entidades (model).
+Criar DTOs para entrada e saída.
+Criar interfaces repository para CRUD.
+Criar controllers para expor a API.
+Criar scripts SQL para migração com Flyway.
+Testar e validar com Postman/Insomnia.
+
+
 ## Instruções para configuração e execução
 
 ### 1. Configurar banco de dados PostgreSQL
@@ -29,14 +39,4 @@ spring.datasource.username=seu_usuario
 spring.datasource.password=sua_senha
 spring.jpa.hibernate.ddl-auto=validate
 spring.flyway.enabled=true
-spring.flyway.locations=classpath:db/migration´´´
-
-
-Resumo do fluxo
-Criar projeto e configurar dependências.
-Definir entidades (model).
-Criar DTOs para entrada e saída.
-Criar interfaces repository para CRUD.
-Criar controllers para expor a API.
-Criar scripts SQL para migração com Flyway.
-Testar e validar com Postman/Insomnia.
+spring.flyway.locations=classpath:db/migration
